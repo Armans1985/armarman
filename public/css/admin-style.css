@@ -1,0 +1,36 @@
+div[data-sotr-order-image] {
+    display: none;
+}
+div[data-sotr-order-image].load {
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    line-height: 100vh;
+    color: #45fa26;
+    font-size: 70px;
+}
+
+.sort-thumbnail {
+    position: relative;
+}
+
+.sort-thumbnail > form > button {
+    outline: none;
+    position: absolute;
+    right: -13px;
+    top: -13px;
+    color: red;
+    font-size: 26px;
+    border: none;
+    background: transparent;
+}
+
+.sort-thumbnail:hover {
+    cursor: move;
+}

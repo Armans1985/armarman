@@ -1,0 +1,65 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+body, html {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.item img{
+    width: 100%;
+}
+.navbar-default .navbar-nav>li:hover{
+    background: #2bbee8;
+    border-radius: 5px;
+
+
+}
+.navbar-default .navbar-nav>li>a {
+     font-size: 15px;
+     color:white;
+ }
+
+.navbar-default .navbar-nav>.active>a:hover{
+    background: #2bbee8;
+    border-radius: 5px;
+    color: white;
+
+}
+.navbar-default .navbar-nav>.active>a{
+    background: #2bbee8;
+    border-radius: 5px;
+    color: white;
+}
+
+/*end navbar and slider */
+
+.h3{
+    font-size: 30px;
+    color:white;
+}
+.fab{
+    text-align: center;
+}
+.social{
+    text-align: center;
+}
+.awic{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 7px;
+    border-radius: 1000px;
+    color: white;
+    text-align: center;
+}
+.awic:hover{
+    background: #2bbee8;
+}
+
+#map{
+    width: 45%;
+    height:280px;
+}
+
